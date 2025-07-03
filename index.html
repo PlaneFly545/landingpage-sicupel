@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI CUPEL - Sistem Informasi Cuaca Pelabuhan</title>
+    <meta name="description" content="SI CUPEL menyediakan informasi prakiraan cuaca maritim real-time untuk pelabuhan dan perairan di Bali & NTB. Unduh APK sekarang!">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            /* Tema Oceanic Deep - Gradien Biru Tua */
+            background: linear-gradient(135deg, #020617, #030a2c, #0f172a);
+            color: #e2e8f0; /* slate-200 */
+        }
+
+        /* Kelas khusus untuk efek Glassmorphism */
+        .glassmorphism {
+            background: rgba(15, 23, 42, 0.6); /* bg-slate-900 with opacity */
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem; /* rounded-2xl */
+        }
+        
+        .hero-glow {
+            box-shadow: 0 0 80px rgba(59, 130, 246, 0.3); /* blue-500 glow */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="sticky top-0 z-50 p-4 glassmorphism shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white tracking-wider">
+                <i class="fas fa-water"></i> SI CUPEL
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1nISXMeNGYJ484bmQOFPCceNMxFKWdu9v" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
+                <i class="fas fa-download mr-2"></i>Unduh APK
+            </a>
+        </div>
+    </nav>
+
+    <header class="min-h-[75vh] flex items-center justify-center py-20 px-4 text-center" style="background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 2000 1500%27%3e%3crect fill=%27none%27 width=%272000%27 height=%271500%27/%3e%3cdefs%3e%3cpath fill=%27none%27 stroke-width=%271%27 stroke-opacity=%270.1%27 id=%27a%27 d=%27M0.74 1500.25l750-1500m-750.74 1500l750-1500M250.36 1500.74l750-1500m-750.36 1500l750-1500M500.48 1500.25l750-1500m-750.48 1500l750-1500M750.12 1500.74l750-1500m-750.12 1500l750-1500M1000.25 1500.25l750-1500m-750.25 1500l750-1500M1250.36 1500.74l750-1500m-750.36 1500l750-1500M1500.48 1500.25l750-1500m-750.48 1500l750-1500M1750.12 1500.74l750-1500m-750.12 1500l750-1500%27/%3e%3c/defs%3e%3cuse href=%27%23a%27 transform=%27translate(0 -0.5)%27 stroke=%27%233b82f6%27/%3e%3cuse href=%27%23a%27 transform=%27translate(0 -1)%27 stroke=%27%233b82f6%27/%3e%3cuse href=%27%23a%27 transform=%27translate(0 -1.5)%27 stroke=%27%233b82f6%27/%3e%3cuse href=%27%23a%27 transform=%27translate(0 -2)%27 stroke=%27%233b82f6%27/%3e%3cuse href=%27%23a%27 transform=%27translate(0 -2.5)%27 stroke=%27%233b82f6%27/%3e%3cuse href=%27%23a%27 transform=%27translate(0 -3)%27 stroke=%27%233b82f6%27/%3e%3cuse href=%27%23a%27 transform=%27translate(0 -3.5)%27 stroke=%27%233b82f6%27/%3e%3cuse href=%27%23a%27 transform=%27translate(0 -4)%27 stroke=%27%233b82f6%27/%3e%3c/svg%3e'); background-attachment: fixed;">
+        <div class="container mx-auto">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">Prakiraan Cuaca Maritim Akurat di Genggaman Anda.</h1>
+                <p class="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+                    SI CUPEL adalah aplikasi modern berbasis Flutter yang menyajikan data cuaca real-time dari BMKG untuk pelabuhan dan perairan strategis di sekitar Bali & NTB.
+                </p>
+                <a href="https://drive.google.com/uc?export=download&id=1nISXMeNGYJ484bmQOFPCceNMxFKWdu9v" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 inline-block hero-glow">
+                    <i class="fas fa-download mr-3"></i>Unduh APK Sekarang
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="py-20 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Fitur Unggulan SI CUPEL</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                
+                <div class="p-8 glassmorphism transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-anchor text-3xl text-blue-400 mr-4"></i>
+                        <h3 class="text-2xl font-semibold text-white">Prakiraan Cuaca Pelabuhan</h3>
+                    </div>
+                    <p class="text-slate-300">Dapatkan informasi detail untuk 8 pelabuhan utama di Bali, dilengkapi fitur esensial untuk navigasi yang aman.</p>
+                    <ul class="mt-4 space-y-2 text-slate-300 list-inside">
+                        <li><i class="fas fa-check-circle text-blue-400 mr-2"></i>Peta interaktif dengan penanda lokasi.</li>
+                        <li><i class="fas fa-check-circle text-blue-400 mr-2"></i>Data: tinggi gelombang, angin, suhu, dll.</li>
+                        <li><i class="fas fa-check-circle text-blue-400 mr-2"></i>Sistem peringatan dini cuaca ekstrem.</li>
+                        <li><i class="fas fa-check-circle text-blue-400 mr-2"></i>Tautan ke pusat informasi maritim BMKG.</li>
+                    </ul>
+                </div>
+
+                <div class="p-8 glassmorphism transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-water text-3xl text-blue-400 mr-4"></i>
+                        <h3 class="text-2xl font-semibold text-white">Informasi Wilayah Perairan</h3>
+                    </div>
+                    <p class="text-slate-300">Pantau kondisi 12 wilayah perairan strategis di sekitar Bali & NTB dengan prakiraan hingga 3 hari ke depan.</p>
+                    <ul class="mt-4 space-y-2 text-slate-300 list-inside">
+                        <li><i class="fas fa-check-circle text-blue-400 mr-2"></i>Peta dengan visualisasi poligon area.</li>
+                        <li><i class="fas fa-check-circle text-blue-400 mr-2"></i>Prakiraan cuaca untuk 4 periode (H, H+1, H+2, H+3).</li>
+                        <li><i class="fas fa-check-circle text-blue-400 mr-2"></i>Dropdown untuk pemilihan wilayah perairan.</li>
+                        <li><i class="fas fa-check-circle text-blue-400 mr-2"></i>Desain kartu informasi yang mudah dibaca.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-20 px-4 bg-slate-900/50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Galeri Tampilan Aplikasi</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="glassmorphism p-2 transform hover:scale-105 transition-transform duration-300">
+                    <img src="img/mock_1.png" alt="Tampilan Aplikasi SI CUPEL 1" class="rounded-lg w-full">
+                </div>
+                <div class="glassmorphism p-2 transform hover:scale-105 transition-transform duration-300">
+                    <img src="img/mock_2.png" alt="Tampilan Aplikasi SI CUPEL 2" class="rounded-lg w-full">
+                </div>
+                <div class="glassmorphism p-2 transform hover:scale-105 transition-transform duration-300">
+                    <img src="img/mock_3.png" alt="Tampilan Aplikasi SI CUPEL 3" class="rounded-lg w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="py-20 px-4">
+        <div class="container mx-auto text-center max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Siap Menjelajah dengan Aman?</h2>
+            <p class="text-lg text-slate-300 mb-8">
+                Jangan biarkan cuaca buruk menghalangi aktivitas maritim Anda. Unduh SI CUPEL sekarang dan dapatkan data prakiraan cuaca paling akurat dan modern.
+            </p>
+            <a href="https://drive.google.com/uc?export=download&id=1nISXMeNGYJ484bmQOFPCceNMxFKWdu9v"
+               class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 inline-block hero-glow">
+                <i class="fas fa-download mr-3"></i>Unduh SI CUPEL v1.0
+            </a>
+            <div class="mt-4 text-sm text-slate-400">
+                <span><i class="fas fa-check-circle"></i> Gratis</span> &bull;
+                <span><i class="fas fa-shield-alt"></i> Aman</span> &bull;
+                <span><i class="fas fa-file-archive"></i> Ukuran: 22MB</span>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-slate-900/70 p-6 text-center">
+        <div class="container mx-auto">
+            <p class="text-slate-400">&copy; 2025 SI CUPEL. All Rights Reserved.</p>
+            <p class="text-slate-500 text-sm mt-1">KKN STMKG UNIT 13</p>
+        </div>
+    </footer>
+
+</body>
+</html>
