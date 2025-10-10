@@ -10,6 +10,7 @@
   <link rel="canonical" href="https://www.sicupel.site/">
   <meta name="google-site-verification" content="djxdysN-rwlhfQpQT8lDHElmY5efD_IRiejRsdO3ZQA">
   <link rel="icon" href="img/icon_kkn.png" type="image/png">
+
   <meta property="og:title" content="SiCupel - Sistem Informasi Cuaca Pelabuhan">
   <meta property="og:description" content="Prakiraan cuaca maritim real-time untuk pelabuhan dan perairan di Bali & NTB. Unduh APK SiCupel sekarang!">
   <meta property="og:type" content="website">
@@ -19,6 +20,7 @@
   <meta name="twitter:title" content="SiCupel - Sistem Informasi Cuaca Pelabuhan">
   <meta name="twitter:description" content="Prakiraan cuaca maritim akurat untuk pelabuhan Bali & NTB. Unduh APK sekarang!">
   <meta name="twitter:image" content="https://www.sicupel.site/img/mock_1.png">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -39,24 +41,43 @@
     }
   }
   </script>
+
   <meta http-equiv="Content-Security-Policy" content="
-    default-src 'self'; 
-    script-src 'self' https://cdn.tailwindcss.com; 
-    style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; 
-    font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; 
+    default-src 'self' data: https://cdn.tailwindcss.com https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com; 
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com; 
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; 
+    font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; 
     img-src 'self' data: https://www.sicupel.site; 
     object-src 'none';
     frame-ancestors 'none';
     base-uri 'self';
     form-action 'self';
   ">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
 
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #020617, #030a2c, #0f172a);
+      color: #e2e8f0;
+    }
+    .glassmorphism {
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 1rem;
+    }
+    .hero-glow {
+      box-shadow: 0 0 80px rgba(59, 130, 246, 0.3);
+    }
+  </style>
+</head>
 <body class="antialiased">
 
     <nav class="sticky top-0 z-50 p-4 glassmorphism shadow-lg">
@@ -166,5 +187,6 @@
 
 </body>
 </html>
+
 
 
