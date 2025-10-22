@@ -20,9 +20,8 @@
 ---
 
 ## ⚙️ Teknologi & Platform  
-- Dibangun menggunakan **Flutter** sebagai basis aplikasi mobile (Android/iOS).
-- Informasi dan data ditampilkan secara real-time untuk kondisi laut dan pelabuhan.  
-- Hosting & landing page: situs utama di domain sicupel.site.
+- Dibangun menggunakan **Flutter** sebagai basis aplikasi mobile (Android).
+- Informasi dan data ditampilkan secara real-time untuk kondisi laut dan pelabuhan.
 
 ---
 
