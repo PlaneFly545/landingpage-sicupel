@@ -9,19 +9,18 @@
 
 ## 🌐 Website & Unduhan  
 🔗 Kunjungi: [https://www.sicupel.site/](https://www.sicupel.site/)  
-🆓 Unduh APK: tersedia untuk instalasi gratis dari situs utama. :contentReference[oaicite:2]{index=2}
-
+🆓 Unduh APK: tersedia untuk instalasi gratis dari situs utama.
 ---
 
 ## 🎯 Fitur Unggulan  
-- Prakiraan cuaca untuk **8 pelabuhan utama di Bali**, termasuk peta interaktif, data tinggi gelombang, angin, suhu, dan sistem peringatan dini. :contentReference[oaicite:3]{index=3}  
-- Pantauan kondisi untuk **12 wilayah perairan strategis di Bali & NTB** dengan prakiraan hingga 3 hari ke depan. :contentReference[oaicite:4]{index=4}  
+- Prakiraan cuaca untuk **8 pelabuhan utama di Bali**, termasuk peta interaktif, data tinggi gelombang, angin, suhu, dan sistem peringatan dini.
+- Pantauan kondisi untuk **12 wilayah perairan strategis di Bali & NTB** dengan prakiraan hingga 3 hari ke depan.
 - Desain aplikasi yang modern dan responsif untuk mendukung aktivitas maritim yang aman.
 
 ---
 
 ## ⚙️ Teknologi & Platform  
-- Dibangun menggunakan **Flutter** sebagai basis aplikasi mobile (Android/iOS). :contentReference[oaicite:5]{index=5}  
+- Dibangun menggunakan **Flutter** sebagai basis aplikasi mobile (Android/iOS).
 - Informasi dan data ditampilkan secara real-time untuk kondisi laut dan pelabuhan.  
 - Hosting & landing page: situs utama di domain sicupel.site.
 
@@ -35,7 +34,7 @@
 ---
 
 ## 👨‍💻 Pengembang  
-Proyek ini dikembangkan oleh tim mahasiswa/anggota dari institusi maritim (misalnya STMKG) sebagai bagian dari inovasi digital di bidang meteorologi maritim. :contentReference[oaicite:7]{index=7}
+Proyek ini dikembangkan oleh tim mahasiswa/anggota dari institusi maritim (misalnya STMKG) sebagai bagian dari inovasi digital di bidang meteorologi maritim.
 
 ---
 
