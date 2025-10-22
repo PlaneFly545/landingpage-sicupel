@@ -26,19 +26,18 @@
 ---
 
 ## 📈 Manfaat Penggunaan  
-- Membantu para pelaut, operator pelabuhan, dan pengguna maritim untuk memantau kondisi cuaca dan laut secara mudah dan cepat.  
-- Memberikan dukungan dalam pengambilan keputusan operasional di pelabuhan dan perairan strategis.  
+- Membantu para pelaut dan pengguna maritim untuk memantau kondisi cuaca dan laut secara mudah dan cepat. 
 - Meningkatkan keselamatan maritim melalui visualisasi data dan peringatan dini cuaca ekstrem.
 
 ---
 
 ## 👨‍💻 Pengembang  
-Proyek ini dikembangkan oleh tim mahasiswa/anggota dari institusi maritim (misalnya STMKG) sebagai bagian dari inovasi digital di bidang meteorologi maritim.
+Proyek ini dikembangkan oleh tim KKN STMKG Unit 13 sebagai bagian dari inovasi digital di bidang meteorologi maritim.
 
 ---
 
 ## 📜 Lisensi  
-Direlis di bawah lisensi [MIT License](LICENSE).  
+Dirilis di bawah lisensi [MIT License](LICENSE).  
 Silakan digunakan dan dikembangkan lebih lanjut untuk keperluan pendidikan, riset, dan layanan maritim.
 
 ---
