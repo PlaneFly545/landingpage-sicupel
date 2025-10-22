@@ -3,7 +3,7 @@
 [![Website](https://img.shields.io/badge/website-sicupel.site-blue?logo=google-chrome)](https://www.sicupel.site/)  
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-**SiCupel** adalah aplikasi berbasis Flutter yang menyajikan informasi **prakiraan cuaca maritim real-time** untuk pelabuhan dan perairan strategis di sekitar **Bali & NTB**.
+**SiCupel** adalah aplikasi berbasis Flutter yang menyajikan informasi **prakiraan cuaca maritim** untuk pelabuhan dan perairan strategis di sekitar **Bali & NTB**.
 
 ---
 
